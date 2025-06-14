@@ -1,0 +1,22 @@
+PYTHON INSTALLATION
+pyton.org --> install latest version --> open installer --> add python.exe to path --> install now
+cmd promt --> python --version
+
+INSTALL PYCHARM
+jetbrains.com/python --> download community edition --> add bin
+
+open pycharm --> new project --> choose path --> create
+
+***PYTHON***
+
+INPUT and OUTUPUT :
+* The input() function asks for user input. it return string value
+* The print() statement returns the output
+
+VARIABLE and DATA TYPES:
+
+VARIABLES:
+* variables are contianers for storing data values
+* each variable represents
+    . a data type
+    . a value(actual data stored)
