@@ -13,4 +13,3 @@ print("hello ",name)
 age=int(input("enter your age"))
 print("your age is ",age)
 #int() can convert string to integer
- 

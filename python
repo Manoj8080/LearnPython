@@ -1,3 +1,9 @@
+PYTHON
+WHAT IS PYTHON?
+Python is a high-level, versatile programming language known for its readability and ease of use.
+It's widely used in various domains like web development, data science, machine learning, and automation.
+Python's syntax is designed to be clear and concise, making it beginner-friendly and efficient for developers.
+
 PYTHON INSTALLATION
 pyton.org --> install latest version --> open installer --> add python.exe to path --> install now
 cmd promt --> python --version
@@ -20,3 +26,35 @@ VARIABLES:
 * each variable represents
     . a data type
     . a value(actual data stored)
+* in python we can assign diff values to diff variables in a single line code
+
+DATA TYPES:
+* in python primary data types are
+    .integer (int) #11
+    .float(float) #11.8
+    .string(str) #manoj
+    .boolean(bool) #True or False
+
+TUPLES:
+* tuple is an ordered collection of items
+* unlike lists, tuples are immmutable meaning their contents cannot be changed after creation
+* tuples are useful for storing data that should not be modified
+* for tuples we use regular brackets()
+
+tuple operations:
+* to access tuple elements we use index numbers
+* we cannot append or remove the elements in a tuple
+* we can concatenate two tuples to create a new tuple
+
+LISTS:
+* a list is an ordered collection of items
+* lists are mutable, meaning their contents can be changed after creation
+* lists can store elements of different types (eg: integers, strings, other lists etc)
+* for lists we use square brackets[]
+
+list operations:
+* we access elements in the list by using indexes
+* we can add elements to the list by using append fun {list_name.append(element)}
+* we can remove elements in the list by using remove {list_name.remove(index_number)}
+* to retrive a part in a list listname[staring_index : ending_index]
+* to replace element list_name(index_number)=element
