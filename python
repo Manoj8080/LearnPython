@@ -6,12 +6,12 @@ Python's syntax is designed to be clear and concise, making it beginner-friendly
 
 PYTHON INSTALLATION
 pyton.org --> install latest version --> open installer --> add python.exe to path --> install now
-cmd promt --> python --version
+cmd prompt --> python --version
 
 INSTALL PYCHARM
 jetbrains.com/python --> download community edition --> add bin
 
-open pycharm --> new project --> choose path --> create
+open PyCharm --> new project --> choose path --> create
 
 ***PYTHON***
 
@@ -22,7 +22,7 @@ INPUT and OUTUPUT :
 VARIABLE and DATA TYPES:
 
 VARIABLES:
-* variables are contianers for storing data values
+* variables are containers for storing data values
 * each variable represents
     . a data type
     . a value(actual data stored)
@@ -33,11 +33,11 @@ DATA TYPES:
     .integer (int) #11
     .float(float) #11.8
     .string(str) #manoj
-    .boolean(bool) #True or False
+    .Boolean(bool) #True or False
 
 TUPLES:
 * tuple is an ordered collection of items
-* unlike lists, tuples are immmutable meaning their contents cannot be changed after creation
+* unlike lists, tuples are immutable meaning their contents cannot be changed after creation
 * tuples are useful for storing data that should not be modified
 * for tuples we use regular brackets()
 
@@ -58,3 +58,114 @@ list operations:
 * we can remove elements in the list by using remove {list_name.remove(index_number)}
 * to retrive a part in a list listname[staring_index : ending_index]
 * to replace element list_name(index_number)=element
+
+DICTIONARY:
+* a dictionary is a collection of key value pairs
+* keys are unique and they map to specific values
+* dictionaries are mutable so you can modify them by adding or removing key value pairs
+* for dictionaries we use curley brackets{}
+
+dictionary operations:
+* we use keys to access the values in dictionary
+* to add new key value pair-- dict_name['key']='value'
+* to delete a key value pair-- del dict_name['key']
+* to replace a value-- dict_name['old_key']='new_value'
+
+SETS:
+* a set is an unordered collection of unique elements
+* sets do now allow duplicate values andd the elements are not indexed
+* sate are mutable but the elements must be of an immutable type
+
+set operations:
+* to add set_name.add(element)
+* to remove set_name.remove(element)
+* union operation combines two sets and return all unique elements(|)
+* intersection returns the common elements only(&)
+* difference returns the elements in first set but not in second set(-)
+
+OPERATIONS and EXPRESSIONS:
+* operators are symbols or keywords that perform operations on variables and values
+* there are different types of operators
+    .arithmetic operators(+, -, *, /, %, **, //)
+    .comparison operators(<, >, ==, !=, <=, >=)
+    .logical operators(and, or, not)
+    .assignment operators(+=, -=, *=, /=)
+    .membership and identity operators(in, not in, is, is not)
+
+STRING OPERATORS :
+* string operators allows you to perform operations on strings
+* types of string operations
+    . string concatenation(+)
+    . string repetition(*)
+    . string comparison(<, >, ==, !=, <=, >=)
+    . string membership operators(in, not in)
+    . string slicing([:])
+
+CONTROL FLOW STATEMENTS :(10-13)
+* conditional statements(if, elif, else)
+* logical operators(and, or, not)
+* loops(for and while loops)
+* break, continue and pass
+
+FUNCTIONS in PYTHON :
+* a function is a block of reusable code that performs a specific tasks
+* functions help organize code into reusable blocks, making programs more modular and easier to maintain
+* we define a function once and use it whenever needed
+* functions make programs more readable and efficient
+
+EXCEPTION HANDLING :
+What is exception handling?
+* exceptions are errors that occur during program execution, disrupting normal flow
+* exception handling prevents program crashes by managing error gracefully
+What is an exception?
+* an exception is and event that interrupts the normal flow of a program
+* it occurs when python encounters something unexpected or invalid
+* when an exception occurs python stops executing and raises an error message
+
+common causes of exception :
+* invalid operations
+    . eg: dividing by zero (ZeroDivisionError)
+* incorrect data types
+    . eg: trying to add a number to string (TypeError)
+* accessing non-existent elements
+    . eg: indexing beyond the length of a list (IndexError)
+* file handling error
+    . eg: trying to open a file that does not exist (FileNotFoundError)
+
+
+OBJECT ORIENTED PROGRAMMING IN PYTHON :
+OOP concept:
+* opp is a programming paradigm based on objects and classes
+* it helps in organizing code, reusability and structuring complex programs efficiently
+* a programming model where we design programs using real-world concepts like objects and classes
+
+in this module:
+    . classes and objects
+    . attributes and methods
+    . inheritance
+    . polymorphism and encapsulation
+
+What are CLASSES and OBJECTS?
+* a class is like a blueprint or a template for creating objects
+    . think of it is a car blueprint. it defines the structure, features and functionality of a car, such as number of wheels
+      engine type, and color options but it doesn't create an actual car
+* an object is an instance of a class
+    . an object is an actual car built using that blueprint. each car has the properties defined in the blueprint but can
+      have different values.
+
+INHERITANCE :
+* inheritance allows one class (child class) to inherit attributes and methods from another class (parent class)
+    . the child class automatically gains all the attributes and methods of the parent class
+    . the child class can also override or extend the behaviour of the parent class
+
+POLYMORPHISM :
+* same method name but different behaviours
+* it allows different classes to use the same method name but provide their own unique implementations
+* the same method name is used across different classes making it easy to extend functionality
+
+ENCAPSULATION :
+* restricting direct access to data and allowing controlled modification
+* encapsulation restricts direct access to class attributes and methods
+* instead, we use getter and setter methods to access or modify values safely
+* direct access is not allowed preventing accidental changes
+
